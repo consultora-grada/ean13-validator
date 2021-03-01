@@ -1,11 +1,11 @@
 {
-    "name": "grada/ean13validator",
+    "name": "consultora-grada/ean13-validator",
     "description": "Validates ean13 check digit",
     "keywords": [
         "grada",
         "ean13validator"
     ],
-    "homepage": "https://github.com/grada/ean13validator",
+    "homepage": "https://github.com/consultora-grada/ean13-validator",
     "license": "MIT",
     "authors": [
         {
