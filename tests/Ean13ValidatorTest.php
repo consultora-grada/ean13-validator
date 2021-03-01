@@ -2,8 +2,8 @@
 
 namespace Grada\Ean13validator\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Grada\Ean13validator\Ean13validatorClass;
+use PHPUnit\Framework\TestCase;
 
 class Ean13ValidatorTest extends TestCase
 {
@@ -46,6 +46,4 @@ class Ean13ValidatorTest extends TestCase
         $result = $vc->validate_EAN13Barcode("7790040111004");
         $this->assertTrue($result);
     }
-    
-
 }

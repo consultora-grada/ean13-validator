@@ -4,9 +4,9 @@ namespace Grada\Ean13validator;
 
 class Ean13validatorClass
 {
-    function validate_EAN13Barcode(string $barcode)
+    public function validate_EAN13Barcode(string $barcode)
     {
-        if (!preg_match("/^[0-9]{13}$/", $barcode)) {
+        if (! preg_match("/^[0-9]{13}$/", $barcode)) {
             return false;
         }
     
