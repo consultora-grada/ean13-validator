@@ -1,8 +1,8 @@
 # Validates ean13 check digit
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/grada/ean13validator.svg?style=flat-square)](https://packagist.org/packages/grada/ean13validator)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/grada/ean13validator/Tests?label=tests)](https://github.com/grada/ean13validator/actions?query=workflow%3ATests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/grada/ean13validator.svg?style=flat-square)](https://packagist.org/packages/grada/ean13validator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/grada/ean13validator.svg?style=flat-square)](https://packagist.org/packages/consultora-grada/ean13-validator)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/grada/ean13validator/Tests?label=tests)](https://github.com/consultora-grada/ean13-validator/actions?query=workflow%3ATests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/grada/ean13validator.svg?style=flat-square)](https://packagist.org/packages/consultora-grada/ean13-validator)
 
 
 This package validates EAN13 barcode check digit.
