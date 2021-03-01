@@ -5,15 +5,15 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/grada/ean13validator.svg?style=flat-square)](https://packagist.org/packages/grada/ean13validator)
 
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+This package validates EAN13 barcode check digit.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/package-skeleton-php.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/package-skeleton-php)
+[<img src="https://www.grada.com.ar/wp-content/uploads/2020/06/logoGrada200x71.png" width="419px" />](https://spatie.be/github-ad-click/package-skeleton-php)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
+We invest a lot of resources into creating best in class open source packages. You can support us by [buying one of our paid services](https://www.grada.com.ar/).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://www.grada.com.ar/contacto/).
 
 ## Installation
 
@@ -26,8 +26,8 @@ composer require grada/ean13validator
 ## Usage
 
 ```php
-$skeleton = new Grada\Ean13validator();
-echo $skeleton->echoPhrase('Hello, Grada!');
+$vc = new Ean13validatorClass();
+$result = $vc->validate_EAN13Barcode("0123456789");   // true if it is a valid EAN13 barcode
 ```
 
 ## Testing
