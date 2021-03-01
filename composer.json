@@ -7,6 +7,14 @@
     ],
     "homepage": "https://github.com/consultora-grada/ean13-validator",
     "license": "MIT",
+
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://grada.com.ar"
+        }
+    ],
+
     "authors": [
         {
             "name": "Carlos Rubén Jacobs",
