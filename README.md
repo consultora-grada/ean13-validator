@@ -27,7 +27,9 @@ composer require grada/ean13validator
 
 ```php
 $vc = new Ean13validatorClass();
-$result = $vc->validate_EAN13Barcode("0123456789");   // true if it is a valid EAN13 barcode
+$result = $vc->validate_EAN13Barcode("0123456789");   // false because it is not a valid EAN13 barcode
+
+$result1 = $vc->validate_EAN13Barcode("7790040111004");   // true because it is a valid EAN13 barcode
 ```
 
 ## Testing
