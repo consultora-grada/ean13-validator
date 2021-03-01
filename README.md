@@ -26,6 +26,8 @@ composer require consultora-grada/ean13-validator
 ## Usage
 
 ```php
+use Grada\Ean13validator\Ean13validatorClass;
+
 $vc = new Ean13validatorClass();
 $result = $vc->validate_EAN13Barcode("0123456789");   // false because it is not a valid EAN13 barcode
 
