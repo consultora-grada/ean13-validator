@@ -9,7 +9,7 @@ This package validates EAN13 barcode check digit.
 
 ## Support us
 
-[<img src="https://www.grada.com.ar/wp-content/uploads/2020/06/logoGrada200x71.png" width="300px" />](https://spatie.be/github-ad-click/package-skeleton-php)
+[<img src="https://www.grada.com.ar/wp-content/uploads/2020/06/logoGrada200x71.png" width="300px" />](https://grada.com.ar)
 
 We invest a lot of resources into creating best in class open source packages. You can support us by [buying one of our paid services](https://www.grada.com.ar/).
 
