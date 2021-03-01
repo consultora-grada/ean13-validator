@@ -1,0 +1,6 @@
+name: ean13-validator
+recipe: lamp
+config:
+  webroot: .
+  php: '7.4'
+

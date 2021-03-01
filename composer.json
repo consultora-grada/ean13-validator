@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "grada/ean13validator",
+    "description": "Validates ean13 check digit",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "grada",
+        "ean13validator"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/grada/ean13validator",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Carlos Rubén Jacobs",
+            "email": "carlos.jacobs@grada.com.ar",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Grada\\Ean13validator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Grada\\Ean13validator\\Tests\\": "tests"
         }
     },
     "scripts": {

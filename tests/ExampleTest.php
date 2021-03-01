@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Grada\Ean13validator\Tests;
 
 use PHPUnit\Framework\TestCase;
 
