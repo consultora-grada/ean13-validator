@@ -10,7 +10,7 @@ class Ean13validatorClass
             return false;
         }
     
-        $digits = $barcode;
+        $digits = intval($barcode);
     
         $even_sum = $digits[1] + $digits[3] + $digits[5] +
                     $digits[7] + $digits[9] + $digits[11];
